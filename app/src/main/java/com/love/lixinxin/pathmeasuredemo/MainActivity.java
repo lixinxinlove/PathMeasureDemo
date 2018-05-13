@@ -1,9 +1,11 @@
 package com.love.lixinxin.pathmeasuredemo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.love.lixinxin.pathmeasuredemo.activity.SwipeDelMenuActivity;
 import com.love.lixinxin.pathmeasuredemo.http.IRequest;
 import com.love.lixinxin.pathmeasuredemo.http.impl.BaseRequest;
 import com.love.lixinxin.pathmeasuredemo.http.impl.BaseResponse;
@@ -36,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         }).start();
+
+
+
+        startActivity(new Intent(this,SwipeDelMenuActivity.class));
 
     }
 }

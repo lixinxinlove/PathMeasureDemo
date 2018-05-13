@@ -27,4 +27,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
     implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+    //RecyclerViewAdapter
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
 }
